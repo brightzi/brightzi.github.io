@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>编译 on brightzi</title>
+    <link>http://brightzi.cn/tags/%E7%BC%96%E8%AF%91/</link>
+    <description>Recent content in 编译 on brightzi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Tue, 16 Jan 2024 23:17:25 +0800</lastBuildDate>
+    <atom:link href="http://brightzi.cn/tags/%E7%BC%96%E8%AF%91/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>静态链接和动态链接</title>
+      <link>http://brightzi.cn/posts/c%E9%9D%99%E6%80%81%E9%93%BE%E6%8E%A5%E5%92%8C%E5%8A%A8%E6%80%81%E9%93%BE%E6%8E%A5/</link>
+      <pubDate>Tue, 16 Jan 2024 23:17:25 +0800</pubDate>
+      <guid>http://brightzi.cn/posts/c%E9%9D%99%E6%80%81%E9%93%BE%E6%8E%A5%E5%92%8C%E5%8A%A8%E6%80%81%E9%93%BE%E6%8E%A5/</guid>
+      <description>一、静态库和动态库 Linux的库文件一般分为静态库和动态库： 静态库(.a)： 库文件以.a为后缀，程序在编译链接的时候把库的代码链接到可执行文</description>
+    </item>
+  </channel>
+</rss>

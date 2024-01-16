@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on brightzi</title>
+    <link>http://brightzi.cn/posts/</link>
+    <description>Recent content in Posts on brightzi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Wed, 17 Jan 2024 00:00:44 +0800</lastBuildDate>
+    <atom:link href="http://brightzi.cn/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>【C&#43;&#43;】智能指针</title>
+      <link>http://brightzi.cn/posts/c&#43;&#43;%E6%99%BA%E8%83%BD%E6%8C%87%E9%92%88/</link>
+      <pubDate>Wed, 17 Jan 2024 00:00:44 +0800</pubDate>
+      <guid>http://brightzi.cn/posts/c&#43;&#43;%E6%99%BA%E8%83%BD%E6%8C%87%E9%92%88/</guid>
+      <description>C++11引入了std::unique_ptr主要是为了提供一种在资源管理方面更为安全和高效的替代方案。std::unique_ptr是一种</description>
+    </item>
+    <item>
+      <title>静态链接和动态链接</title>
+      <link>http://brightzi.cn/posts/c%E9%9D%99%E6%80%81%E9%93%BE%E6%8E%A5%E5%92%8C%E5%8A%A8%E6%80%81%E9%93%BE%E6%8E%A5/</link>
+      <pubDate>Tue, 16 Jan 2024 23:17:25 +0800</pubDate>
+      <guid>http://brightzi.cn/posts/c%E9%9D%99%E6%80%81%E9%93%BE%E6%8E%A5%E5%92%8C%E5%8A%A8%E6%80%81%E9%93%BE%E6%8E%A5/</guid>
+      <description>一、静态库和动态库 Linux的库文件一般分为静态库和动态库： 静态库(.a)： 库文件以.a为后缀，程序在编译链接的时候把库的代码链接到可执行文</description>
+    </item>
+    <item>
+      <title>状态机</title>
+      <link>http://brightzi.cn/posts/%E7%8A%B6%E6%80%81%E6%9C%BA/</link>
+      <pubDate>Tue, 16 Jan 2024 19:24:11 +0800</pubDate>
+      <guid>http://brightzi.cn/posts/%E7%8A%B6%E6%80%81%E6%9C%BA/</guid>
+      <description>C++状态机 #include &amp;lt;iostream&amp;gt; #include &amp;lt;unordered_map&amp;gt; #include &amp;lt;string&amp;gt; enum class PaymentEvent { PAY_CREATE, PAY_PROCESS, PAY_SUCCESS, PAY_FAIL }; class PaymentStatus { public: // 枚举状态 enum Status { INIT, PAYING, PAID, FAILED }; // 构造函数 PaymentStatus(Status status, const std::string&amp;amp; description) : status(status), description(description) {} // 获取目标状态 static Status getTargetStatus(Status sourceStatus, PaymentEvent event); // 打印状态</description>
+    </item>
+  </channel>
+</rss>
