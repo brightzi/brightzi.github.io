@@ -13,7 +13,7 @@
       <link>http://brightzi.cn/posts/c&#43;&#43;%E6%99%BA%E8%83%BD%E6%8C%87%E9%92%88/</link>
       <pubDate>Wed, 17 Jan 2024 00:00:44 +0800</pubDate>
       <guid>http://brightzi.cn/posts/c&#43;&#43;%E6%99%BA%E8%83%BD%E6%8C%87%E9%92%88/</guid>
-      <description>C++11引入了std::unique_ptr主要是为了提供一种在资源管理方面更为安全和高效的替代方案。std::unique_ptr是一种</description>
+      <description>unique_ptr C++11引入了std::unique_ptr主要是为了提供一种在资源管理方面更为安全和高效的替代方案。std::unique_ptr是一</description>
     </item>
     <item>
       <title>静态链接和动态链接</title>
