@@ -9,6 +9,13 @@
     <lastBuildDate>Sun, 14 Jan 2024 00:28:26 +0800</lastBuildDate>
     <atom:link href="http://brightzi.cn/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>libuuid编译</title>
+      <link>http://brightzi.cn/posts/libuuid%E7%BC%96%E8%AF%91/</link>
+      <pubDate>Wed, 31 Jan 2024 21:42:12 +0800</pubDate>
+      <guid>http://brightzi.cn/posts/libuuid%E7%BC%96%E8%AF%91/</guid>
+      <description>编译 1、获取源代码, 下载地址 https://jaist.dl.sourceforge.net/project/libuuid/libuuid-1.0.3.tar.gz 2、解压文件，创建build文件夹 3、进入源代码文件下，（交叉编译才需要补充参数） ./configure &amp;ndash;prefix</description>
+    </item>
+    <item>
       <title>【C&#43;&#43;】智能指针</title>
       <link>http://brightzi.cn/posts/c&#43;&#43;%E6%99%BA%E8%83%BD%E6%8C%87%E9%92%88/</link>
       <pubDate>Wed, 17 Jan 2024 00:00:44 +0800</pubDate>
