@@ -2,10 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://brightzi.cn/posts/libuuid%E7%BC%96%E8%AF%91/</loc>
-    <lastmod>2024-01-31T21:42:12+08:00</lastmod>
+    <loc>http://brightzi.cn/posts/libcurl%E6%8A%A5%E9%94%99-send-failed-since-rewinding-of-the-data-stream-failed/</loc>
+    <lastmod>2024-02-18T23:29:49+08:00</lastmod>
   </url><url>
     <loc>http://brightzi.cn/posts/</loc>
+    <lastmod>2024-02-18T23:29:49+08:00</lastmod>
+  </url><url>
+    <loc>http://brightzi.cn/posts/libuuid%E7%BC%96%E8%AF%91/</loc>
     <lastmod>2024-01-31T21:42:12+08:00</lastmod>
   </url><url>
     <loc>http://brightzi.cn/tags/</loc>

@@ -6,8 +6,15 @@
     <description>Recent content in Posts on brightzi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 31 Jan 2024 21:42:12 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 18 Feb 2024 23:29:49 +0800</lastBuildDate>
     <atom:link href="http://brightzi.cn/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>libcurl报错 &#34;Send failed since rewinding of the data stream failed&#34;</title>
+      <link>http://brightzi.cn/posts/libcurl%E6%8A%A5%E9%94%99-send-failed-since-rewinding-of-the-data-stream-failed/</link>
+      <pubDate>Sun, 18 Feb 2024 23:29:49 +0800</pubDate>
+      <guid>http://brightzi.cn/posts/libcurl%E6%8A%A5%E9%94%99-send-failed-since-rewinding-of-the-data-stream-failed/</guid>
+      <description>问题背景 小组使用C++开发，使用libcurl封装了Http请求模块。由于项目需求实现gzip压缩，便通过libcurl压缩选项实现了该功能</description>
+    </item>
     <item>
       <title>libuuid编译</title>
       <link>http://brightzi.cn/posts/libuuid%E7%BC%96%E8%AF%91/</link>
