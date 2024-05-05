@@ -1,26 +1,47 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>编译 on brightzi</title>
-    <link>http://brightzi.cn/tags/%E7%BC%96%E8%AF%91/</link>
-    <description>Recent content in 编译 on brightzi</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-CN</language>
+    <title>编译 on ExampleSite</title>
+    <link>https://examplesite.com/tags/%E7%BC%96%E8%AF%91/</link>
+    <description>Recent content in 编译 on ExampleSite</description>
+    <image>
+      <title>ExampleSite</title>
+      <url>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.121.2</generator>
+    <language>en</language>
     <lastBuildDate>Wed, 31 Jan 2024 21:42:12 +0800</lastBuildDate>
-    <atom:link href="http://brightzi.cn/tags/%E7%BC%96%E8%AF%91/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://examplesite.com/tags/%E7%BC%96%E8%AF%91/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>libuuid编译</title>
-      <link>http://brightzi.cn/posts/libuuid%E7%BC%96%E8%AF%91/</link>
+      <link>https://examplesite.com/posts/libuuid%E7%BC%96%E8%AF%91/</link>
       <pubDate>Wed, 31 Jan 2024 21:42:12 +0800</pubDate>
-      <guid>http://brightzi.cn/posts/libuuid%E7%BC%96%E8%AF%91/</guid>
-      <description>编译 1、获取源代码, 下载地址 https://jaist.dl.sourceforge.net/project/libuuid/libuuid-1.0.3.tar.gz 2、解压文件，创建build文件夹 3、进入源代码文件下，（交叉编译才需要补充参数） ./configure &amp;ndash;prefix</description>
+      <guid>https://examplesite.com/posts/libuuid%E7%BC%96%E8%AF%91/</guid>
+      <description>编译 1、获取源代码, 下载地址 https://jaist.dl.sourceforge.net/project/libuuid/libuuid-1.0.3.tar.gz
+2、解压文件，创建build文件夹
+3、进入源代码文件下，（交叉编译才需要补充参数）
+./configure &amp;ndash;prefix=/绝对路径/build/ CC=/绝对路径/bin/aarch64-linux-android28-clang &amp;ndash;host=aarch64-linux-android CFLAGS=-I/绝对路径/include
+4、编译 make 再安装 make install
+使用NDK提供的编译器，编译指令：
+./configure --prefix=/src_path/build-android CC=/opt/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android28-clang CFLAGS=-I/opt/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include --host=aarch64-linux-android 备注 host参数用于指定交叉编译的目标系统的类型，这个参数的值通常是一个三元组（有时被称为 &amp;ldquo;target triplet&amp;rdquo;），它的一般格式为 cpu-vendor-os。这里：
+cpu 表示目标硬件的CPU类型（例如，x86_64、aarch64、arm等）。 vendor 是CPU供应商的名称，但在许多情况下可能被省略或用作泛型名称。 os 表示目标操作系统（例如，linux-android、linux-gnu等）。 对于Android平台，常见的 --host 选项包括：
+对于 ARM 架构：
+arm-linux-androideabi：用于32位ARM处理器。 aarch64-linux-android：用于64位ARM处理器（也称为ARM64或ARMv8）。 对于 Intel 架构：
+i686-linux-android：用于32位Intel处理器。 x86_64-linux-android：用于64位Intel处理器。 </description>
     </item>
     <item>
       <title>静态链接和动态链接</title>
-      <link>http://brightzi.cn/posts/c%E9%9D%99%E6%80%81%E9%93%BE%E6%8E%A5%E5%92%8C%E5%8A%A8%E6%80%81%E9%93%BE%E6%8E%A5/</link>
+      <link>https://examplesite.com/posts/c%E9%9D%99%E6%80%81%E9%93%BE%E6%8E%A5%E5%92%8C%E5%8A%A8%E6%80%81%E9%93%BE%E6%8E%A5/</link>
       <pubDate>Tue, 16 Jan 2024 23:17:25 +0800</pubDate>
-      <guid>http://brightzi.cn/posts/c%E9%9D%99%E6%80%81%E9%93%BE%E6%8E%A5%E5%92%8C%E5%8A%A8%E6%80%81%E9%93%BE%E6%8E%A5/</guid>
-      <description>一、静态库和动态库 Linux的库文件一般分为静态库和动态库： 静态库(.a)： 库文件以.a为后缀，程序在编译链接的时候把库的代码链接到可执行文</description>
+      <guid>https://examplesite.com/posts/c%E9%9D%99%E6%80%81%E9%93%BE%E6%8E%A5%E5%92%8C%E5%8A%A8%E6%80%81%E9%93%BE%E6%8E%A5/</guid>
+      <description>一、静态库和动态库 Linux的库文件一般分为静态库和动态库：
+静态库(.a)： 库文件以.a为后缀，程序在编译链接的时候把库的代码链接到可执行文件中。程序运行的时候将不再需要静态库 动态库(.so): 库文件以.so为后缀，程序运行的时候才会去链接动态库的代码，多个程序共享使用库的代码
+二、理解库 如果不想给对方我们的源代码，我们可以选择给用户提供我们的.o可重定位目标二进制文件（gcc -c 文件）与.h头文件。让用户用我们提供的.o文件进行链接即可。在编译时，只要把源文件编译成.o文件在将其链接便可形成一个可执行的程序：
+通过 gcc -o 链接目标文件，生成可执行程序： 我们可以把 .o 和 .h 文件提交给用户，可是如果有成百上千个，那一个个提供太过麻烦。因此为了让用户简单的使用库，我们就把所有 .o文件打包成一个包，给对方提供一个库文件即可。把多个文件合并成一个文件，这个文件就是库，打包的方式就分为了静态库和动态库。
+三、制作静态库 创建Makefile
+libmymath.a: my_add.o my_sub.o ar -rc $@ $^ my_add.o: my_add.c gcc -c my_add.c -o my_add.o my_sub.o: my_sub.c gcc -c my_sub.c -o my_sub.o .PHONY: output output: mkdir -p mylib/include mkdir -p mylib/lib cp -f *.a mylib/lib cp -f *.h mylib/include .PHONY: clean clean: rm -rf *.o libmymath.a 在Makefile中，$@和$^是自动变量，用于表示规则中的目标和依赖项。
+$@表示当前规则的目标（target），即规则左侧的文件名。 $^表示当前规则的所有依赖项（prerequisites），即规则右侧的文件名。 在Makefile中，libmymath.</description>
     </item>
   </channel>
 </rss>

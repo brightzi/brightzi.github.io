@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>C&#43;&#43; on ExampleSite</title>
-    <link>https://examplesite.com/tags/c&#43;&#43;/</link>
-    <description>Recent content in C&#43;&#43; on ExampleSite</description>
+    <title>CPP11 on ExampleSite</title>
+    <link>https://examplesite.com/categories/cpp11/</link>
+    <description>Recent content in CPP11 on ExampleSite</description>
     <image>
       <title>ExampleSite</title>
       <url>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
@@ -12,7 +12,7 @@
     <generator>Hugo -- 0.121.2</generator>
     <language>en</language>
     <lastBuildDate>Wed, 17 Jan 2024 00:00:44 +0800</lastBuildDate>
-    <atom:link href="https://examplesite.com/tags/c++/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://examplesite.com/categories/cpp11/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>【C&#43;&#43;】智能指针</title>
       <link>https://examplesite.com/posts/c&#43;&#43;%E6%99%BA%E8%83%BD%E6%8C%87%E9%92%88/</link>
@@ -31,14 +31,6 @@ T* release()：释放对资源的所有权，并返回原始指针。 void reset
 T* get()：返回原始指针。 T&amp;amp; operator*()：解引用操作符，返回指向的对象的引用。 T* operator-&amp;gt;()：成员访问操作符，用于通过 std::unique_ptr 访问对象的成员。 检查空指针：
 bool operator==(std::nullptr_t) const noexcept：检查是否为 nullptr。 explicit operator bool() const noexcept：将 std::unique_ptr 转换为布尔值，检查是否拥有资源。 自定义删除器：
 template &amp;lt;class Deleter&amp;gt; std::unique_ptr(T* ptr, Deleter d)：使用自定义删除器创建 std::unique_ptr。 template &amp;lt;class Deleter&amp;gt; Deleter&amp;amp; get_deleter() noexcept：获取当前删除器。 使用示例 创建unique_ptr // 构造方式 std::unique_ptr&amp;lt;int&amp;gt; p1(); std::unique_ptr&amp;lt;int&amp;gt; p2(nullptr); 无法进行复制构造和赋值操作 std::unique_ptr&amp;lt;int&amp;gt; p3(new int); std::unique_ptr&amp;lt;int&amp;gt; p4(p3); std::unique_ptr&amp;lt;int&amp;gt; p5(p3); 支持移动语义 std::unique_ptr&amp;lt;int&amp;gt; p6(new int); std::unique_ptr&amp;lt;int&amp;gt; p7(std::move(p6)); 释放当前资源，设置为空指针 std::unique_ptr&amp;lt;int&amp;gt; p8(new int); std::cout &amp;lt;&amp;lt; &amp;#34;before address: &amp;#34; &amp;lt;&amp;lt; p8.</description>
-    </item>
-    <item>
-      <title>状态机</title>
-      <link>https://examplesite.com/posts/%E7%8A%B6%E6%80%81%E6%9C%BA/</link>
-      <pubDate>Tue, 16 Jan 2024 19:24:11 +0800</pubDate>
-      <guid>https://examplesite.com/posts/%E7%8A%B6%E6%80%81%E6%9C%BA/</guid>
-      <description>C++状态机
-#include &amp;lt;iostream&amp;gt; #include &amp;lt;unordered_map&amp;gt; #include &amp;lt;string&amp;gt; enum class PaymentEvent { PAY_CREATE, PAY_PROCESS, PAY_SUCCESS, PAY_FAIL }; class PaymentStatus { public: // 枚举状态 enum Status { INIT, PAYING, PAID, FAILED }; // 构造函数 PaymentStatus(Status status, const std::string&amp;amp; description) : status(status), description(description) {} // 获取目标状态 static Status getTargetStatus(Status sourceStatus, PaymentEvent event); // 打印状态信息 void printStatus() const { std::cout &amp;lt;&amp;lt; &amp;#34;Status: &amp;#34; &amp;lt;&amp;lt; description &amp;lt;&amp;lt; std::endl; } private: Status status; std::string description; }; // 自定义哈希函数 namespace std { template &amp;lt;&amp;gt; struct hash&amp;lt;std::pair&amp;lt;PaymentStatus::Status, PaymentEvent&amp;gt;&amp;gt; { size_t operator()(const std::pair&amp;lt;PaymentStatus::Status, PaymentEvent&amp;gt;&amp;amp; p) const { // 一种简单的哈希组合方法 return std::hash&amp;lt;int&amp;gt;()(static_cast&amp;lt;int&amp;gt;(p.</description>
     </item>
   </channel>
 </rss>
