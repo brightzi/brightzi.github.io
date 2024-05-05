@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>编译 on ExampleSite</title>
-    <link>https://examplesite.com/tags/%E7%BC%96%E8%AF%91/</link>
-    <description>Recent content in 编译 on ExampleSite</description>
+    <title>编译 on zimingming</title>
+    <link>http://brightzi.cn/tags/%E7%BC%96%E8%AF%91/</link>
+    <description>Recent content in 编译 on zimingming</description>
     <image>
-      <title>ExampleSite</title>
-      <url>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <title>zimingming</title>
+      <url>http://brightzi.cn/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://brightzi.cn/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.121.2</generator>
     <language>en</language>
     <lastBuildDate>Wed, 31 Jan 2024 21:42:12 +0800</lastBuildDate>
-    <atom:link href="https://examplesite.com/tags/%E7%BC%96%E8%AF%91/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://brightzi.cn/tags/%E7%BC%96%E8%AF%91/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>libuuid编译</title>
-      <link>https://examplesite.com/posts/libuuid%E7%BC%96%E8%AF%91/</link>
+      <link>http://brightzi.cn/posts/libuuid%E7%BC%96%E8%AF%91/</link>
       <pubDate>Wed, 31 Jan 2024 21:42:12 +0800</pubDate>
-      <guid>https://examplesite.com/posts/libuuid%E7%BC%96%E8%AF%91/</guid>
+      <guid>http://brightzi.cn/posts/libuuid%E7%BC%96%E8%AF%91/</guid>
       <description>编译 1、获取源代码, 下载地址 https://jaist.dl.sourceforge.net/project/libuuid/libuuid-1.0.3.tar.gz
 2、解压文件，创建build文件夹
 3、进入源代码文件下，（交叉编译才需要补充参数）
@@ -32,9 +32,9 @@ i686-linux-android：用于32位Intel处理器。 x86_64-linux-android：用于6
     </item>
     <item>
       <title>静态链接和动态链接</title>
-      <link>https://examplesite.com/posts/c%E9%9D%99%E6%80%81%E9%93%BE%E6%8E%A5%E5%92%8C%E5%8A%A8%E6%80%81%E9%93%BE%E6%8E%A5/</link>
+      <link>http://brightzi.cn/posts/c%E9%9D%99%E6%80%81%E9%93%BE%E6%8E%A5%E5%92%8C%E5%8A%A8%E6%80%81%E9%93%BE%E6%8E%A5/</link>
       <pubDate>Tue, 16 Jan 2024 23:17:25 +0800</pubDate>
-      <guid>https://examplesite.com/posts/c%E9%9D%99%E6%80%81%E9%93%BE%E6%8E%A5%E5%92%8C%E5%8A%A8%E6%80%81%E9%93%BE%E6%8E%A5/</guid>
+      <guid>http://brightzi.cn/posts/c%E9%9D%99%E6%80%81%E9%93%BE%E6%8E%A5%E5%92%8C%E5%8A%A8%E6%80%81%E9%93%BE%E6%8E%A5/</guid>
       <description>一、静态库和动态库 Linux的库文件一般分为静态库和动态库：
 静态库(.a)： 库文件以.a为后缀，程序在编译链接的时候把库的代码链接到可执行文件中。程序运行的时候将不再需要静态库 动态库(.so): 库文件以.so为后缀，程序运行的时候才会去链接动态库的代码，多个程序共享使用库的代码
 二、理解库 如果不想给对方我们的源代码，我们可以选择给用户提供我们的.o可重定位目标二进制文件（gcc -c 文件）与.h头文件。让用户用我们提供的.o文件进行链接即可。在编译时，只要把源文件编译成.o文件在将其链接便可形成一个可执行的程序：

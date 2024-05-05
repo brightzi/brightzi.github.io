@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>c on ExampleSite</title>
-    <link>https://examplesite.com/categories/c/</link>
-    <description>Recent content in c on ExampleSite</description>
+    <title>c on zimingming</title>
+    <link>http://brightzi.cn/categories/c/</link>
+    <description>Recent content in c on zimingming</description>
     <image>
-      <title>ExampleSite</title>
-      <url>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <title>zimingming</title>
+      <url>http://brightzi.cn/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://brightzi.cn/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.121.2</generator>
     <language>en</language>
     <lastBuildDate>Mon, 06 May 2024 00:39:02 +0800</lastBuildDate>
-    <atom:link href="https://examplesite.com/categories/c/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://brightzi.cn/categories/c/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Linux 平台编译 libnginx.a</title>
-      <link>https://examplesite.com/posts/linux-%E5%B9%B3%E5%8F%B0%E7%BC%96%E8%AF%91-libnginx.a/</link>
+      <link>http://brightzi.cn/posts/linux-%E5%B9%B3%E5%8F%B0%E7%BC%96%E8%AF%91-libnginx.a/</link>
       <pubDate>Mon, 06 May 2024 00:39:02 +0800</pubDate>
-      <guid>https://examplesite.com/posts/linux-%E5%B9%B3%E5%8F%B0%E7%BC%96%E8%AF%91-libnginx.a/</guid>
+      <guid>http://brightzi.cn/posts/linux-%E5%B9%B3%E5%8F%B0%E7%BC%96%E8%AF%91-libnginx.a/</guid>
       <description>CC=gcc CXX=g++ AR=ar ARFLAGS=rcs NGINX_VERSION = 1.16.1 NGINX_OBJS_PATH = /root/github/nginx-$(NGINX_VERSION)/objs NGINX_SRC_PATH = /root/github/nginx-$(NGINX_VERSION)/src CFLAGS = -pipe -g -W -Wall -fPIC \ -I $(NGINX_OBJS_PATH) \ -I $(NGINX_SRC_PATH)/core \ -I $(NGINX_SRC_PATH)/event \ -I $(NGINX_SRC_PATH)/event/modules \ -I $(NGINX_SRC_PATH)/os/unix \ -I $(NGINX_SRC_PATH)/http \ -I $(NGINX_SRC_PATH)/http/modules \ -I $(NGINX_SRC_PATH)/mail \ -I $(NGINX_SRC_PATH)/stream \ NGINX_LDFLAGS = -lpcre -lcrypto -lcrypt -lz -lpthread LDFLAGS = -L . -lnginx $(NGINX_LDFLAGS) NGINX_ROOT = /root/github/nginx-$(NGINX_VERSION) NGINX_MAKEFILE = $(NGINX_ROOT)/Makefile NGINX_TAR = $(NGINX_ROOT).tar.gz NGINX_OBJS = \ objs/src/core/nginx.</description>
     </item>
   </channel>

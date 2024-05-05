@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>CPP11 on ExampleSite</title>
-    <link>https://examplesite.com/categories/cpp11/</link>
-    <description>Recent content in CPP11 on ExampleSite</description>
+    <title>CPP11 on zimingming</title>
+    <link>http://brightzi.cn/categories/cpp11/</link>
+    <description>Recent content in CPP11 on zimingming</description>
     <image>
-      <title>ExampleSite</title>
-      <url>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <title>zimingming</title>
+      <url>http://brightzi.cn/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://brightzi.cn/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.121.2</generator>
     <language>en</language>
     <lastBuildDate>Wed, 17 Jan 2024 00:00:44 +0800</lastBuildDate>
-    <atom:link href="https://examplesite.com/categories/cpp11/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://brightzi.cn/categories/cpp11/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>【C&#43;&#43;】智能指针</title>
-      <link>https://examplesite.com/posts/c&#43;&#43;%E6%99%BA%E8%83%BD%E6%8C%87%E9%92%88/</link>
+      <link>http://brightzi.cn/posts/c&#43;&#43;%E6%99%BA%E8%83%BD%E6%8C%87%E9%92%88/</link>
       <pubDate>Wed, 17 Jan 2024 00:00:44 +0800</pubDate>
-      <guid>https://examplesite.com/posts/c&#43;&#43;%E6%99%BA%E8%83%BD%E6%8C%87%E9%92%88/</guid>
+      <guid>http://brightzi.cn/posts/c&#43;&#43;%E6%99%BA%E8%83%BD%E6%8C%87%E9%92%88/</guid>
       <description>unique_ptr C++11引入了std::unique_ptr主要是为了提供一种在资源管理方面更为安全和高效的替代方案。std::unique_ptr是一种独占所有权的智能指针，它确保在程序的生命周期内只有一个指针可以拥有和管理某个资源，通常是动态分配的对象或数组。
 std::unique_ptr特点： 独占所有权： std::unique_ptr不允许多个指针共享同一个资源，这意味着在任意时刻只有一个unique_ptr可以拥有资源。这有助于防止资源泄漏和难以调试的所有权问题。
 自动资源释放： 当std::unique_ptr的生命周期结束时（例如，离开其作用域），它会自动释放所拥有的资源，无需手动调用delete或delete[]。这有助于避免内存泄漏，并简化了资源管理。
