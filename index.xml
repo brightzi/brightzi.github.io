@@ -25,7 +25,7 @@
       <link>http://brightzi.cn/posts/unix%E4%BF%A1%E5%8F%B7/</link>
       <pubDate>Mon, 06 May 2024 00:38:49 +0800</pubDate>
       <guid>http://brightzi.cn/posts/unix%E4%BF%A1%E5%8F%B7/</guid>
-      <description>SIGKILL和SIGSTOP不可被忽略，内核和超级用户可进行程序</description>
+      <description>SIGKILL和SIGSTOP不可被进程忽略，无法被进程捕获，强制进程退出。</description>
     </item>
     <item>
       <title>timerfd 相关函数介绍</title>
